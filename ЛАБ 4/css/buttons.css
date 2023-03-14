@@ -1,0 +1,113 @@
+.edit-btn {
+    display: inline-flex;
+    margin: 10px;
+    text-decoration: none;
+    position: relative;
+    font-size: 10px;
+    line-height: 20px;
+    padding: 12px 20px;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', Тahoma, sans-serif;
+    background: #337AB7;
+    cursor: pointer;
+    border: 2px solid #BFE2FF;
+}
+.edit-btn:hover,
+.edit-btn:active,
+.edit-btn:focus {
+    color: #FFF;
+}
+.edit-btn:before,
+.edit-btn:after {
+    content: "";
+    border: 4px solid transparent;
+    position: absolute;
+    width: 0;
+    height: 0;
+    box-sizing: content-box;   
+}
+.edit-btn:before {
+    top: -6px;
+    left: -6px;
+}
+.edit-btn:after {
+    bottom: -6px;
+    right: -6px;
+}
+.edit-btn:hover:before,
+.edit-btn:active:before,
+.edit-btn:focus:before {
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    border-top-color: #337AB7;
+    border-right-color: #337AB7;
+    transition: width 0.2s ease-out, height 0.2s ease-out 0.2s;
+}
+.edit-btn:hover:after,
+.edit-btn:active:after,
+.edit-btn:focus:after {
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    border-bottom-color: #337AB7;
+    border-left-color: #337AB7;
+    transition: border-color 0s ease-out 0.4s, width 0.2s ease-out 0.4s, height 0.2s ease-out 0.6s;
+}
+.delete-btn {
+    display: inline-flex;
+    margin: 10px;
+    text-decoration: none;
+    position: relative;
+    font-size: 10px;
+    line-height: 20px;
+    padding: 12px 20px;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', Тahoma, sans-serif;
+    background: rgb(163, 0, 0);
+    cursor: pointer;
+    border: 2px solid #BFE2FF;
+    
+}
+.delete-btn:hover,
+.delete-btn:active,
+.delete-btn:focus {
+    color: #FFF;
+}
+.delete-btn:before,
+.delete-btn:after {
+    content: "";
+    border: 4px solid transparent;
+    position: absolute;
+    width: 0;
+    height: 0;
+    box-sizing: content-box;   
+}
+.delete-btn:before {
+    top: -6px;
+    left: -6px;
+}
+.delete-btn:after {
+    bottom: -6px;
+    right: -6px;
+}
+.delete-btn:hover:before,
+.delete-btn:active:before,
+.delete-btn:focus:before {
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    border-top-color: rgb(163, 0, 0);
+    border-right-color: rgb(163, 0, 0);
+    transition: width 0.2s ease-out, height 0.2s ease-out 0.2s;
+}
+.delete-btn:hover:after,
+.delete-btn:active:after,
+.delete-btn:focus:after {
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    border-bottom-color: rgb(163, 0, 0);
+    border-left-color: rgb(163, 0, 0);
+    transition: border-color 0s ease-out 0.4s, width 0.2s ease-out 0.4s, height 0.2s ease-out 0.6s;
+}

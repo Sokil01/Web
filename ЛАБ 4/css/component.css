@@ -1,0 +1,27 @@
+div{
+   width: 240px;
+   background-color: #BFE2FF;
+   border: solid;
+   border-color: #337AB7;
+   border-radius: 8px;
+   font-family: 'Segoe UI', Tahoma;
+   font-size: 8px;
+   text-align: center;
+
+}
+img{
+    align-items: center;
+    width: 240px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+h1{
+    margin-left: auto;
+    margin-right: auto;  
+    font-weight: bold;
+}
+h2{
+    margin-left: auto;
+    margin-right: auto; 
+}
