@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Модальне вікно</title>
+	<link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/buttons.css">
+</head>
+<body>
+	<div class="overlay"></div>
+	<div class="modal">
+		<div class="modal-header">
+			<h2>Конфігурація VR окулярів</h2>
+			<button class="close-button">&times;</button>
+		</div>
+		<div class="modal-body">
+			<p>Назва VR окулярів:</p>
+            <input class="modal-input" placeholder="Введіть назву VR окулярів">
+            <p>Розмір екрану, дюйм:</p>
+            <input class="modal-input" placeholder="Введіть розмір екрану">
+            <p>Роздільна здатність екрану:</p>
+            <input class="modal-input" placeholder="Введіть роздільну здатність екрану">
+            <p>Кут огляду, град:</p>
+            <input class="modal-input" placeholder="Введіть кут огляду">
+            <p>Частота оновлення:</p>
+            <select class="modal-select">
+                <option>120Гц</option>
+                <option>90Гц</option>
+            </select>
+			<br>
+			<div class="vrg">
+			<img src="images/vr.png" width="130px">
+			</div>
+			<br>
+			<div class="form-group">
+				<label for="image-upload">Виберіть зображення:</label>
+				<div class="image-preview"></div>
+				<input type="file" id="image-upload">
+			  </div>
+		</div>
+		<div class="modal-footer">
+			<button class="confirm-btn">Підтвердити</button>
+		</div>
+	</div>
+</body>
+</html>
