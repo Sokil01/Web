@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        header, aside, nav, main, footer
+        {
+            border: 2px solid rgb(17, 17, 185);
+            background-color: rgb(86, 112, 138);
+            color: white;
+            text-align:center;
+            display: grid;
+        }
+        main
+        {
+            width: 50%;
+            height: 62px;
+            float: right;
+        }
+        header, aside, nav
+        {
+            width: 49.58%;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="Content">
+        <header>Заголовок</header>
+        <main>Меню</main>
+        <aside>Вміст</aside>
+        <nav>Додаткова секція</nav>
+        <footer>Нижній колонтитул</footer>
+    </div>
+</body>
+</html>
