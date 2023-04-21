@@ -1,0 +1,23 @@
+.navbar ul { display: none; }
+.navbar li:hover ul { display: block;
+background-color: Orange; }
+.navbar * { list-style-type: none;
+    margin: 0;
+    padding: 0;}
+.navbar li { display: block;
+ height: 40px;
+ line-height: 40px;}
+ .navbar { font-family: Verdana;
+    background: CornflowerBlue;
+    display: flex;
+    flex-direction: row; }
+.navbar li{ position: relative; }
+.navbar li:hover { background-color: Orange; }
+.navbar ul li:hover { background-color: CornflowerBlue; }        
+.navbar li a { display: table-cell;
+    min-width: 200px;
+    text-align: center;
+    color: White;
+    text-decoration: none; }
+    
+    
