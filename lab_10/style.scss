@@ -1,0 +1,24 @@
+$center: center;
+$font: sans-serif;
+$sto: 100%;
+
+h1
+{
+    font: 1.8em $font;
+    text-align: $center;
+}
+
+img
+{
+    width: $sto;
+    height: $sto;
+}
+
+$grid-breakpoints: (
+xs: 0,
+sm: 576px,
+md: 768px,
+lg: 992px,
+xl: 1200px,
+xxl: 1400px
+);
