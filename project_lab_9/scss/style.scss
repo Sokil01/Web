@@ -1,0 +1,62 @@
+$mainColor: #00d9ff;
+$textColor: #004409;
+$size: 1011px;
+$border: dotted;
+$style: bold;
+
+.block {
+    margin: 10px 5px;
+    padding: 2px;
+}
+    
+
+body
+{
+    background-color: $mainColor;   
+}
+
+h1
+{
+    border: 1px $border $textColor;
+}
+
+p
+{
+    color: $textColor;
+    font-family: $style;
+    max-width: $size;
+}
+
+nav
+{
+    @extend.block;
+}
+
+@mixin error($borderWidth: 2px) {
+    border: $borderWidth solid #F00;
+    color: #F00;
+    }
+    .generic-error {
+    padding: 20px;
+    margin: 4px;
+    @include error();
+    }
+    .login-error {
+    left: 12px;
+    position: absolute;
+    top: 20px;
+    @include error(5px);
+}
+section 
+{
+        margin: 10px;
+        nav {
+        height: 25px;
+        a {
+        color: #ff009d;
+        &:hover {
+        text-decoration: underline;
+        }
+        }
+    }
+}
